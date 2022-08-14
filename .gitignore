@@ -27,3 +27,6 @@ debs-*.tar
 
 # Elixir language server
 /.elixir_ls/
+
+# PLTs
+/priv/plts/
