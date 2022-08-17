@@ -30,3 +30,6 @@ debs-*.tar
 
 # PLTs
 /priv/plts/
+
+# macOS detritus
+.DS_Store
