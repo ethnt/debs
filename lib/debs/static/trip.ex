@@ -37,7 +37,7 @@ defmodule Debs.Static.Trip do
 
   @spec load(%Dataset{source: Utils.Zip.handle()}) :: %Dataset{
           source: Utils.Zip.handle(),
-          stops: [Stop.t()]
+          trips: [Trip.t()]
         }
   def load(%Dataset{source: source} = dataset) do
     trips =
